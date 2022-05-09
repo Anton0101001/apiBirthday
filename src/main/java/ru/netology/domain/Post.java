@@ -6,7 +6,9 @@ public class Post {
     public String surname;
     public String passport;
     public String phone;
-    public String subscription;
+
+    boolean subscription = true;
+
     public FormDate birthday;
 
 
